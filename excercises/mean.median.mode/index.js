@@ -65,3 +65,5 @@ function getMode(arr) {
 
 console.log(meanMedianMode([1, 2, 3, 4, 5, 4, 6, 1]));
 console.log(meanMedianMode([9, 10, 23, 10, 23, 9]));
+
+module.exports = { meanMedianMode, getMean, getMedian, getMode };
