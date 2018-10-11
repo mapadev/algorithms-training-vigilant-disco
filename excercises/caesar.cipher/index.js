@@ -30,3 +30,5 @@ function caesarCipher(str, num) {
 }
 
 console.log(caesarCipher("doM zaz", 1));
+
+module.exports = caesarCipher;
