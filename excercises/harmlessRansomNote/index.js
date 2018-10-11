@@ -33,3 +33,5 @@ function harmlessRansomNote(noteText, magazineText) {
 console.log(
     harmlessRansomNote("test", "this is some test to test if function works")
 );
+
+module.exports = harmlessRansomNote;
