@@ -28,3 +28,5 @@ function reverseWords(str) {
 }
 
 console.log(reverseWords("hello world"));
+
+module.exports = reverseWords;
