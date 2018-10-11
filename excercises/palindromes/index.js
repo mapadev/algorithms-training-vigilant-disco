@@ -17,3 +17,5 @@ function isPalindrome(string) {
 }
 
 console.log(isPalindrome("rotoR"));
+
+module.exports = isPalindrome;
